@@ -31,7 +31,7 @@ app.get('/users', (req, res) => {
 
 // Root route so the homepage isn't completely blank
 app.get('/', (req, res) => {
-  res.send('Welcome to the User API! Navigate to <a href="/api/users">/api/users</a> to see the JSON data.');
+  res.send('Welcome to the User API! Navigate to <a href="/users">/users</a> to see the JSON data.');
 });
 
 // Start the server
