@@ -25,7 +25,7 @@ const users = [
 ];
 
 // Define your API endpoint route
-app.get('/api/users', (req, res) => {
+app.get('/users', (req, res) => {
   res.json(users);
 });
 
